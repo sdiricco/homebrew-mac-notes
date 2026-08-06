@@ -1,9 +1,9 @@
 cask "mac-notes" do
   arch arm: "-arm64", intel: ""
 
-  version "1.4.0"
-  sha256 arm:   "ac999b799bbce12d3cf0525a3d1373b4ed351ff6b4afdeaf9d37427b02917bb5",
-         intel: "077d35b2b6248b8b8cbc1a451c0eb8185a55b921b6d9fbd660c3a41e1b10605d"
+  version "1.5.0"
+  sha256 arm:   "aa2d9a68e261ea0dabec21edfdc2de25c18f7235db65e20585cc35a787e05c0d",
+         intel: "74d4622b0884b43396951338f11ca09e31980db1a7b0ec5adb7e75143c5b76b7"
 
   url "https://github.com/sdiricco/mac-notes/releases/download/v#{version}/Mac-Notes-#{version}#{arch}.dmg"
   name "Mac Notes"
