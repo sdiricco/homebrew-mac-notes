@@ -1,6 +1,6 @@
 cask "mac-notes-tauri" do
-  version "0.8.0"
-  sha256 "44211aefbdaa197d6cd611378e3f8f83daecc392329ed5e740df8a9553192a70"
+  version "0.9.0"
+  sha256 "9faedd1d3de1763b40a560f72488b24d02966e925e31da90f92d75baf39f2961"
 
   # Binario universale (arm64 + Intel in un solo file): a differenza di
   # mac-notes non serve distinguere per architettura.
