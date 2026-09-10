@@ -1,6 +1,6 @@
 cask "mac-notes-tauri" do
-  version "0.11.2"
-  sha256 "39a236f4091c4e98add8574777cd2b2b70db573490315394ba60bedabbca1b5b"
+  version "0.11.3"
+  sha256 "33739c057445253a228ad186a2e0ce9d7ae2227bfc349284ead439ac6ac44077"
 
   # Dalla 0.11.0 l'app si chiama RustNotes: cambiano nome del dmg, nome
   # dell'app e identifier. Il cask mantiene il nome storico "mac-notes-tauri"
