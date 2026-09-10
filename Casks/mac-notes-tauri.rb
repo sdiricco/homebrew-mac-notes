@@ -24,11 +24,11 @@ cask "mac-notes-tauri" do
   # Sia la cartella dati attuale sia quella delle versioni precedenti alla
   # rinomina (l'app la lascia come backup dopo la migrazione automatica).
   zap trash: [
-    "~/Library/Application Support/io.github.sdiricco.rustnotes",
-    "~/Library/Preferences/io.github.sdiricco.rustnotes.plist",
-    "~/Library/Saved Application State/io.github.sdiricco.rustnotes.savedState",
     "~/Library/Application Support/com.movesolutions.macnotestauri",
+    "~/Library/Application Support/io.github.sdiricco.rustnotes",
     "~/Library/Preferences/com.movesolutions.macnotestauri.plist",
+    "~/Library/Preferences/io.github.sdiricco.rustnotes.plist",
     "~/Library/Saved Application State/com.movesolutions.macnotestauri.savedState",
+    "~/Library/Saved Application State/io.github.sdiricco.rustnotes.savedState",
   ]
 end
